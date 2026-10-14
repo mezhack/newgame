@@ -107,4 +107,9 @@ def carregar_placar():
     with open("placar.json", "r") as f:
         return json.load(f)
 
+def novo_jogador(nome):
+    nome = input ("digite o nome do jogador:")
+
+    return  nome
+
 jogar()
