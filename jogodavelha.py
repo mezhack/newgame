@@ -20,11 +20,11 @@ def jogar():
  
     print("=== JOGO DA VELHA ===")
     print("Posições:")
-    print(" 0 | 1 | 2 ")
+    print(" 1 | 2 | 3 ")
     print("---+---+---")
-    print(" 3 | 4 | 5 ")
+    print(" 4 | 5 | 6 ")
     print("---+---+---")
-    print(" 6 | 7 | 8 ")
+    print(" 7 | 8 | 9 ")
  
     while True:
         exibir_tabuleiro(tabuleiro)
